@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 // declare outside, else recreated on every render
 const messages = [
   "Learn React ⚛️",
@@ -6,14 +8,18 @@ const messages = [
 ];
 
 export default function App() {
-  const step = 1;
+  const [step, setStep] = useState(1);
 
   function handlePrevious() {
-    alert("previous");
+    if (step > 1) {
+      setStep(step - 1);
+    }
   }
 
   function handleNext() {
-    alert("next");
+    if (step < 3) {
+      setStep(step + 1);
+    }
   }
 
   return (
