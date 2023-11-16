@@ -21,8 +21,18 @@ export default function App() {
       </p>
 
       <div className="buttons">
-        <button style={{ backgroundColor: "#7950f2" }}>Previous</button>
-        <button style={{ backgroundColor: "#7950f2" }}>Next</button>
+        <button
+          style={{ backgroundColor: "#7950f2" }}
+          onClick={() => alert("Previous")}
+        >
+          Previous
+        </button>
+        <button
+          style={{ backgroundColor: "#7950f2" }}
+          onClick={() => alert("Next")}
+        >
+          Next
+        </button>
       </div>
     </div>
   );
