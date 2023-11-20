@@ -1,4 +1,4 @@
-#React Steps
+# React Steps
 
 This React app highlights some of the key features when handling state and dealing with props. Most notably, when state is updated the use of a callback function within the setter allows for consecutive, predictable updates of state. Additionally, state should never be changed directly; state changes must be handled through the setter function that is defined as part of the useState hook. Also remember that React re-renders a component and it's children whenever the state changes.
 
