@@ -50,7 +50,6 @@ export default function App() {
             </Button>
 
             <Button bgColor={"#7950f2"} textColor={"#fff"} onClick={handleNext}>
-              {" "}
               Next<span>👉</span>
             </Button>
           </div>
