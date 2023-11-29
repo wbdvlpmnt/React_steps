@@ -14,3 +14,8 @@ Conditional Styling:
 Inline Styling:
 <br/>
 <img width="452" alt="image" src="https://github.com/wbdvlpmnt/React_steps/assets/139825457/f66fd77b-ae41-4f2e-a175-4e8fd7c02767">
+
+Children Prop with Reusable Component:
+<br/>
+<img width="724" alt="image" src="https://github.com/wbdvlpmnt/React_steps/assets/139825457/f95f4053-2796-4724-82a5-2a962a24495e">
+
